@@ -1,13 +1,13 @@
-from selenium import webdriver   #(1)
-import unittest
-
-browser = webdriver.Chrome()     #(2)
-# Edith has heard about a cool new online to-do app. She goes
-#to check out its homepage
-browser.get('http://localhost:8000')  #(3)
-
-#she notices the page title and header mention to-do lists
-assert 'To-Do' in browser.title   #(4)
+# from selenium import webdriver   #(1)
+# import unittest
+#
+# browser = webdriver.Chrome()     #(2)
+# # Edith has heard about a cool new online to-do app. She goes
+# #to check out its homepage
+# browser.get('http://localhost:8000')  #(3)
+#
+# #she notices the page title and header mention to-do lists
+# assert 'To-Do' in browser.title   #(4)
 
 #she is invited to enter a to-do item straight away
 
@@ -34,4 +34,4 @@ assert 'To-Do' in browser.title   #(4)
 
 
 
-browser.quit()
+#browser.quit()
